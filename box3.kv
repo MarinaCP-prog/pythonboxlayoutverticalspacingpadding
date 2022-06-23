@@ -1,0 +1,22 @@
+#:kivy 2.1.0
+<MyLayout>
+    BoxLayout:
+        orientation: "vertical"
+        size: root.width, root.height
+
+        padding: 50
+        # Space between the buttons
+        spacing: 20
+
+        Button:
+            text: "Entrance"
+
+        Button:
+            text: "Main"
+
+        Button:
+            text: "Dessert"
+            pos_hint: {'center_x':0.5}
+            size_hint: (None, None)
+            width: 200
+            height: 50
